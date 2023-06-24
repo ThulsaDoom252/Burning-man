@@ -38,7 +38,6 @@ const Section = () => {
                 <div className="section-photo-wide-item">
                     <img className={'section-photo'} src={photo3} alt="photo-3"/>
                 </div>
-
             </div>
         </section>
     );
