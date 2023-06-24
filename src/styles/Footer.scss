@@ -1,0 +1,17 @@
+@import "Fonts";
+@import "variables";
+
+.footer {
+  margin-top: 114px;
+  margin-bottom: 150px;
+}
+
+.footer-text {
+  color: $contentColor;
+  font-size: 0.938rem;
+  font-family: Open Sans;
+}
+
+.footer-text-1, .footer-text-2 {
+  margin-right: 67px;
+}
