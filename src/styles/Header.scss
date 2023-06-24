@@ -27,8 +27,10 @@
 }
 
 .nav-item {
+  font-family: Anton;
   background: transparent;
   font-size: 0.875rem;
+  letter-spacing: 1.4px;
   color: $headerColor;
   margin-right: 40px;
   border: none;
@@ -40,7 +42,12 @@
 }
 
 .phone-item {
-  width: 142px;
+  color: #FFF;
+  width: 180px;
+  font-size: 1.063rem;
+  font-family: Anton;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
   margin: auto 0 auto auto;
 }
 
@@ -69,6 +76,7 @@
 }
 
 .header-content-btn {
+  font-family: Anton;
   color: $headerColor;
   margin: auto auto 0 0;
   width: 238px;
