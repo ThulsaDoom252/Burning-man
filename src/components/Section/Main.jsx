@@ -3,11 +3,11 @@ import photo1 from './img1.jpg'
 import photo2 from './img2.jpg'
 import photo3 from './img3.jpg'
 
-const Section = () => {
+const Main = () => {
     return (
-        <section className={'container section'}>
+        <main className={'container main-content'}>
             <h1 className={'section-title'}>About the Event</h1>
-            <div className={'section-text-main-block'}>
+            <section className={'section-text-main-block'}>
                 <div className="section-text-left-block section-text-block">
                     <h2 className={'section-text-block-title'}>Rebuilding society</h2>
                     <div className={'section-text'}>
@@ -27,8 +27,8 @@ const Section = () => {
                         Arts, Civic Involvement, Culture, Education, Philosophical Center, and Social Enterprise.
                     </div>
                 </div>
-            </div>
-            <div className={'section-photos-block'}>
+            </section>
+            <section className={'section-photos-block'}>
                 <div className='section-photo-narrow-item'>
                     <img className={'section-photo'} src={photo1} alt="photo-1"/>
                 </div>
@@ -38,9 +38,9 @@ const Section = () => {
                 <div className="section-photo-wide-item">
                     <img className={'section-photo'} src={photo3} alt="photo-3"/>
                 </div>
-            </div>
-        </section>
+            </section>
+        </main>
     );
 };
 
-export default Section;
+export default Main;
