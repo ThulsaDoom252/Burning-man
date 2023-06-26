@@ -29,14 +29,14 @@ const Main = () => {
                 </div>
             </section>
             <section className={'section-photos-block'}>
-                <div className='section-photo-narrow-item'>
-                    <img className={'section-photo'} src={photo1} alt="photo-1"/>
+                <div className='photo-narrow-item photo-item'>
+                    <img className={'photo'} src={photo1} alt="photo-1"/>
                 </div>
-                <div className="section-photo-narrow-item section-second-photo">
-                    <img className={'section-photo'} src={photo2} alt="photo-2"/>
+                <div className="photo-narrow-item second-photo photo-item">
+                    <img className={'photo'} src={photo2} alt="photo-2"/>
                 </div>
-                <div className="section-photo-wide-item">
-                    <img className={'section-photo'} src={photo3} alt="photo-3"/>
+                <div className="photo-wide-item photo-item">
+                    <img className={'photo'} src={photo3} alt="photo-3"/>
                 </div>
             </section>
         </main>
