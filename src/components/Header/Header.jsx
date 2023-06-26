@@ -7,7 +7,7 @@ const Header = () => {
             <div className={'container'}>
                 <div className={'navbar'}>
                     <div className={'logo-item'}>
-                        <img src={logo} alt="logo"/>
+                        <img className={'logo'} src={logo} alt="logo"/>
                     </div>
                     <div className={'nav-items-block'}>
                         <button className={'nav-item'}>Home</button>
